@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: burlywood;
+    color: white;
+    padding: 20px 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.top-bar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.top-bar .top-right-text p {
+    margin: 0;
+    font-size: 16px;
+}
+
+main {
+    background-color: #f9f9f9;
+}
+
+.new-arrivals {
+    display: flex;
+    background-image: url('./bg\ img.jpg');
+    color: white;
+    padding: 20px;
+}
+
+.new-arrivals .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.new-arrivals .content h2 {
+    margin-top: 0;
+}
+
+.new-arrivals .content button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.new-arrivals .image {
+    flex: 1;
+}
+
+.new-arrivals .image img {
+    width: 100%;
+    height: auto;
+}
+
+.brands {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.brand-logos img {
+    max-width: 100px;
+    margin: 10px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.category {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.category h3 {
+    margin-top: 0;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
